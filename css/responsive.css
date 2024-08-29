@@ -1,0 +1,153 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+  /* CSS */
+
+}
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  /* CSS */
+
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* CSS */
+
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  /* CSS */
+
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  /* CSS */
+
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  /* CSS */
+
+  header {
+    height: 65vh;
+    text-align: center;
+    padding: 0px 15px;
+  }
+
+  .banner-part h1 {
+    font-size: 30px;
+  }
+
+  .banner-part p {
+    width: 100%;
+    padding: 0px 20px;
+  }
+
+  .feature {
+    padding-bottom: 0;
+  }
+
+  .feature h2 {
+    font-size: 30px;
+  }
+
+  .feature .content i {
+    margin-bottom: 50px;
+  }
+
+  .feature .content p {
+    padding: 0 51px;
+  }
+
+  .beautiful-section img {
+    text-align: left;
+    width: 80%;
+  }
+
+  .calltoaction h2 {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .calltoaction .btns {
+    text-align: center;
+  }
+
+  .price-section {
+    width: 100%;
+    padding: 45px 25px;
+  }
+
+
+  .price-section .p-card {
+    margin-bottom: 40px;
+  }
+
+  form .form-inner {
+    display: flex;
+    padding: 70px 35px;
+    flex-direction: column;
+  }
+
+  form .form-inner .left {
+    margin-right: 0px;
+  }
+
+
+
+  form .form-inner .right {
+    margin-left: 0px;
+  }
+
+  form {
+    width: 85%;
+    margin: 50px 30px 50px;
+    background: black;
+    margin-bottom: -74px;
+  }
+
+
+  input {
+    padding: 10px 8px;
+  }
+
+  textarea {
+    height: 100px;
+}
+
+}
